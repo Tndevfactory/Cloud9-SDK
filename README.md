@@ -93,3 +93,18 @@ To protect the interests of the Cloud9 contributors and users we require contrib
 If you want to contribute to the Cloud9 SDK and/or open source plugins please go to the online form, fill it out and submit it.
 
 Happy coding, Cloud9
+
+//ch ----
+Download and setup Cloud9:
+
+# Setup and start Cloud9 server
+# (You can get a zip file instead of using git)
+git clone https://github.com/c9/core.git c9sdk
+c9sdk/scripts/install-sdk.sh
+After the server starts successfully, you can stop it with Ctrl-C. Then you can start it with a different workspace:
+
+node c9sdk/server.js -w ~/my_workspace/
+Visit http://localhost:8181 to see the Cloud9 IDE in your browser.
+
+If you don't like the self-hosted Cloud9 web-IDE, you can try Orion, Codiad, or Codebox.
+
